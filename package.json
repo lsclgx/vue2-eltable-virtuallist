@@ -1,0 +1,19 @@
+{
+  "name": "vue2-eltable-virtuallist",
+  "version": "1.0.0",
+  "description": "基于vue2和element-ui中el-table组件的虚拟列表",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue2",
+    "element-ui",
+    "el-table",
+    "virtual",
+    "list",
+    "table"
+  ],
+  "author": "scott Lee",
+  "license": "ISC"
+}
