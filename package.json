@@ -1,6 +1,6 @@
 {
   "name": "vue2-eltable-virtuallist",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "基于vue2和element-ui中el-table组件的虚拟列表",
   "main": "index.js",
   "scripts": {
