@@ -6,21 +6,12 @@
 
 ### 安装
 ```js
-npm install vue2-elTable-virtuallist --save
+npm install vue2-eltable-virtuallist --save
 
 // main.js
 import { vev } from 'vue2-eltable-virtuallist'
 Vue.use(vev)
 ```
-
-### 参数
-options对象
-|  属性   | 描述  |
-|  ----  | ----  |
-| wrapper  | table的类名，为了兼容一个页面多个el-table的情况 |
-| rowHeight  | 行高，用来计算全部数据的高度，模拟滚动条用 |
-| data  | 全部数据 |
-| tableDataName  | 绑定在el-table的数据，这里传入变量名，直接操作数据，使用vue的双向绑定 |
 
 ### 代码
 ```js
@@ -39,6 +30,15 @@ methods: {
   }
 }
 ```
+
+### 参数
+options对象
+|  属性   | 描述  |
+|  ----  | ----  |
+| wrapper  | table的类名，为了兼容一个页面多个el-table的情况 |
+| rowHeight  | 行高，用来计算全部数据的高度，模拟滚动条用 |
+| data  | 全部数据 |
+| tableDataName  | 绑定在el-table的数据，这里传入变量名，直接操作数据，使用vue的双向绑定 |
 
 
 

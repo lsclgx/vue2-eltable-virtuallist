@@ -42,7 +42,7 @@ export const vev = {
         let leftData = data.slice(first - 2 * num, first)
         let centerData = data.slice(first, first + 2 * num)
         let rightData = data.slice(first + 2 * num, first + 4 * num)
-        Vue[tableDataName] = [...leftData, ...centerData, ...rightData]
+        this[tableDataName] = [...leftData, ...centerData, ...rightData]
         // 改变list在wrapper中的位置。用translate性能更好
         const list = document.querySelector(wrapper + ' .el-table__body-wrapper .el-table__body')
         list.style.position = 'absolute'
